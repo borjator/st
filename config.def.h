@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char font[] = "Cousine:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 #define histsize 2000
 
@@ -81,7 +81,7 @@ static char termname[] = "st-256color";
  *
  *	stty tabs
  */
-static unsigned int tabspaces = 8;
+static unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -93,7 +93,7 @@ static const char *colorname[] = {
 	"blue2",
 	"magenta3",
 	"cyan3",
-	"gray90",
+	"gray80",
 
 	/* 8 bright colors */
 	"gray50",
